@@ -6,7 +6,7 @@ hello, my first github
   >编写RMI接口的实现类：HelloServiceImpl</br>
   >通过JNDI发布RMI服务：RmiSever</br>
   >调用RMI服务：RmiClient</br>
-  rmi://localhost:1099/xu..HelloServiceImpl</br>
+  rmi://localhost:1099/xu.rmi.demo.HelloServiceImpl</br>
   
 2.JNDI 就是一个注册表，服务端将服务对象放入到注册表中，客户端从注册表中获取服务对象。</br>
 在服务端我们发布了 RMI 服务，并在 JNDI 中进行了注册，此时就在服务端创建了一个 Skeleton（骨架），</br>
